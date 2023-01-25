@@ -1,0 +1,51 @@
+.service1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+    
+}
+.service1 img{
+    width: 20rem;
+}
+.service1 span{
+    color: rgb(14, 6, 58);
+}
+.service1 h2{
+    font-size: x-large;
+    font-weight: 700;
+    color: red;
+}
+.service1 p{
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+    
+}
+.service1 button{
+   
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 24, 65);
+    color: white;
+    font-size: large;
+    padding: 8px 30px;
+    margin-top: 10px;
+}
+.serviceshead{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 700; 
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.serviceshead span{
+    color: red;
+}
+@media all and (max-width:1250px){
+    .service1{
+        padding: 1rem 3rem;
+        gap: 3rem;
+    }
+}

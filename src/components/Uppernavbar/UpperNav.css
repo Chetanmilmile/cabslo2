@@ -1,0 +1,23 @@
+.uppernavContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 3rem;
+    background-color: #131c44;
+}
+
+.uppNavLinks{
+    display: flex;
+
+}
+
+.uppNavLinks a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.dropOption{
+    color: black !important;
+}
